@@ -1,0 +1,65 @@
+Model,Prompt,Response,Timestamp
+chatgpt,write me the code for a simple hello world program using pyhton,"Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",2026-01-08 10:48:29
+gemini,write me the code for a simple hello world program using pyhton,"Okay, here's the simplest ""Hello, World!"" program in Python:
+
+```python
+# This line prints the string ""Hello, World!"" to the console.
+print(""Hello, World!"") 
+```
+
+**How to run this code:**
+
+1.  **Save it:** Open a text editor (like Notepad, Sublime Text, VS Code, or even IDLE which comes with Python). Copy and paste the code into it. Save the file with a `.py` extension, for example, `hello.py`.
+2.  **Open a terminal/command prompt:**
+    *   **Windows:** Search for ""cmd"" or ""Command Prompt"".
+    *   **macOS/Linux:** Search for ""Terminal"".
+3.  **Navigate to the directory:** Use the `cd` command to go to the folder where you saved your `hello.py` file. For example, if you saved it in a folder called `MyPythonScripts` on your desktop:
+    ```bash
+    cd Desktop/MyPythonScripts
+    ```
+4.  **Run the script:** Type `python` followed by your filename:
+    ```bash
+    python hello.py
+    ```
+
+You will see this output:
+
+```
+Hello, World!
+```",2026-01-08 10:48:29
+llama,write me the code for a simple hello world program using pyhton,"**Hello World Program in Python**
+=====================================
+
+Here's a simple ""Hello, World!"" program in Python:
+
+```python
+# hello_world.py
+
+# The main function where the program starts execution
+def main():
+    # Print the hello message
+    print(""Hello, World!"")
+
+# Call the main function to start the program
+if __name__ == ""__main__"":
+    main()
+```
+
+**How to Run the Program**
+---------------------------
+
+1. Save the above code in a file named `hello_world.py`.
+2. Open a terminal or command prompt and navigate to the directory where you saved the file.
+3. Type `python hello_world.py` to run the program.
+4. You should see the output ""Hello, World!"" printed to the console.
+
+**Alternative Way: One-Liner**
+---------------------------
+
+If you prefer a more concise version, you can use the following one-liner:
+
+```python
+print(""Hello, World!"")
+```
+
+Just save it in a file, e.g., `hello_world.py`, and run it using `python hello_world.py`.",2026-01-08 10:48:29
