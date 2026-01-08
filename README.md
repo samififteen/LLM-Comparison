@@ -18,10 +18,8 @@ Large Language Models have become central to modern AI applications. This projec
 ## 🛠 Tech Stack
 
 - **Python** — Core implementation
-- **LLM APIs / Models** (e.g., OpenAI, LLaMA, Gemini, etc.)
-- **Pandas / NumPy** — Data handling and analysis
-- **Streamlit / Flask** *(if UI is included)*
-- **Matplotlib / Seaborn** — Visualization *(optional)*
+- **LLM APIs / Models** 
+- **Streamlit**
 
 ---
 
